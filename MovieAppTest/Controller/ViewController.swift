@@ -60,35 +60,21 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegateFl
     
         return cell
     }
-}
-
-extension UIImageView {
-    func load(url: URL) {
-        DispatchQueue.global().async { [weak self] in
-            if let data = try? Data(contentsOf: url) {
-                if let image = UIImage(data: data) {
-                    DispatchQueue.main.async {
-                        self?.image = image
-                }
-            }
-        }
-    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Detail", bundle: nil)
+        
+        let detailVC = storyboard.instantiateViewController(withIdentifier: "DetailStoryboard") as! DetailViewController
+        detailVC.navigationItem.title = "Movies Detail"
+        detailVC.navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "chevron.backward"), style: .plain, target: self, action: #selector(dismissPage(sender:)))
+        
+        let nav = UINavigationController(rootViewController: detailVC)
+        nav.modalPresentationStyle = .fullScreen
+        
+        self.present(nav, animated: true)
     }
     
-    func downloadImage(from url: URL) {
-        print("Download Started")
-        getData(from: url) { data, response, error in
-            guard let data = data, error == nil else { return }
-            print(response?.suggestedFilename ?? url.lastPathComponent)
-            print("Download Finished")
-            // always update the UI from the main thread
-            DispatchQueue.main.async() { [weak self] in
-                self?.image = UIImage(data: data)
-            }
-        }
-    }
-    
-    func getData(from url: URL, completion: @escaping (Data?, URLResponse?, Error?) -> ()) {
-        URLSession.shared.dataTask(with: url, completionHandler: completion).resume()
+    @objc func dismissPage(sender: UIBarButtonItem){
+        dismiss(animated: true, completion: nil)
     }
 }
