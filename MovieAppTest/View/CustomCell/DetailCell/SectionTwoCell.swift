@@ -6,11 +6,14 @@
 //
 
 import UIKit
+import youtube_ios_player_helper
 
 class SectionTwoCell: UITableViewCell {
 
+    @IBOutlet weak var playerView: YTPlayerView!
     override func awakeFromNib() {
         super.awakeFromNib()
+        
         // Initialization code
     }
 

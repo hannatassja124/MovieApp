@@ -17,8 +17,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Network Error" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y3i-qi-5vC">
+                                <rect key="frame" x="90" y="424" width="235" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ma6-yD-V1k">
-                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="140" width="414" height="756"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="36" minimumInteritemSpacing="10" id="Det-8H-EkE">
                                     <size key="itemSize" width="150" height="150"/>
@@ -32,7 +38,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="y3i-qi-5vC" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="4id-Yg-CGL"/>
                             <constraint firstItem="ma6-yD-V1k" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Q2h-d0-UBC"/>
+                            <constraint firstItem="y3i-qi-5vC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="S7S-Wo-Qqc"/>
                             <constraint firstItem="ma6-yD-V1k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eOt-Yf-9NI"/>
                             <constraint firstItem="ma6-yD-V1k" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="qzh-eX-9Zn"/>
                             <constraint firstAttribute="bottom" secondItem="ma6-yD-V1k" secondAttribute="bottom" id="xwC-Tu-qsW"/>

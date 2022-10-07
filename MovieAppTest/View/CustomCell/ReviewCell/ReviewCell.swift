@@ -1,19 +1,18 @@
 //
-//  SectionOneCell.swift
+//  ReviewCell.swift
 //  MovieAppTest
 //
-//  Created by Hannatassja Hardjadinata on 05/10/22.
+//  Created by Hannatassja Hardjadinata on 07/10/22.
 //
 
 import UIKit
 
-class SectionOneCell: UITableViewCell {
+class ReviewCell: UITableViewCell {
 
-    @IBOutlet weak var posterImageView: UIImageView!
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var durationLabel: UILabel!
+    @IBOutlet weak var usernameLabel: UILabel!
+    @IBOutlet weak var ratingLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -24,5 +23,4 @@ class SectionOneCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
 }

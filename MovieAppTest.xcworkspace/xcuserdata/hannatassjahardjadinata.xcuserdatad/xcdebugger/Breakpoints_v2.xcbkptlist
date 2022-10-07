@@ -3,4 +3,114 @@
    uuid = "65E6C7ED-0F24-41D7-AD91-E0B4D40F8C62"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0659DB85-06F5-4A0F-903C-06DAD2930D13"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieAppTest/View/CustomCell/ReviewCell/ReviewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ReviewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "0659DB85-06F5-4A0F-903C-06DAD2930D13 - 78802ae7288700f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieAppTest.ReviewCell.descriptionLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "MovieAppTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hannatassjahardjadinata/Desktop/Xcode%20Swift/MovieAppTest/MovieAppTest/View/CustomCell/ReviewCell/ReviewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "0659DB85-06F5-4A0F-903C-06DAD2930D13 - 5e2ebe974f2c6488"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieAppTest.ReviewCell.descriptionLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "MovieAppTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hannatassjahardjadinata/Desktop/Xcode%20Swift/MovieAppTest/MovieAppTest/View/CustomCell/ReviewCell/ReviewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "0659DB85-06F5-4A0F-903C-06DAD2930D13 - 5421ae3463e64bf7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieAppTest.ReviewCell.descriptionLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "MovieAppTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hannatassjahardjadinata/Desktop/Xcode%20Swift/MovieAppTest/MovieAppTest/View/CustomCell/ReviewCell/ReviewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "0659DB85-06F5-4A0F-903C-06DAD2930D13 - 31086f7825e62717"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieAppTest.ReviewCell.descriptionLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MovieAppTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hannatassjahardjadinata/Desktop/Xcode%20Swift/MovieAppTest/MovieAppTest/View/CustomCell/ReviewCell/ReviewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "0659DB85-06F5-4A0F-903C-06DAD2930D13 - a401026c78e4e8b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieAppTest.ReviewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; MovieAppTest.ReviewCell"
+                  moduleName = "MovieAppTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hannatassjahardjadinata/Desktop/Xcode%20Swift/MovieAppTest/MovieAppTest/View/CustomCell/ReviewCell/ReviewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "223">
+               </Location>
+               <Location
+                  uuid = "0659DB85-06F5-4A0F-903C-06DAD2930D13 - 40b05a3b21e85855"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieAppTest.ReviewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MovieAppTest.ReviewCell&gt;"
+                  moduleName = "MovieAppTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hannatassjahardjadinata/Desktop/Xcode%20Swift/MovieAppTest/MovieAppTest/View/CustomCell/ReviewCell/ReviewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
