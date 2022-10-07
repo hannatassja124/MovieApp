@@ -41,7 +41,9 @@ class ViewController: UIViewController {
                     self.reloadData(newCount: listData.results.count)
                 }
             } catch let error {
-                collectionView.isHidden = true
+                if response.response?.statusCode == 401 {
+                    collectionView.isHidden = true
+                }
                 print(error)
             }
         }
